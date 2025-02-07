@@ -1,0 +1,39 @@
+/* Header */
+
+.header {
+	background-color: black;
+	padding: 30px;
+	position: relative;
+	color: gray;
+	font-size: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header__logo {
+	color: black;
+	font-style: italic;
+	font-size: 36px;
+	margin-right: 10px;
+}
+
+.header__menu {
+	position: absolute;
+	bottom: -20px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: yellow;
+	padding: 10px 40px;
+	display: flex;
+	gap: 30px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 0 black;
+}
+
+.header__menu-item {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	padding: 5px 15px;
+}
