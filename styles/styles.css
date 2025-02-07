@@ -14,15 +14,15 @@ body {
 	text-align: left;
 	position: relative;
 }
-#home {
+#home, #candidates {
 	background-color: white;
 	margin: 60px auto;
 }
-#services {
+#services, #lorem {
 	background-color: lightgray;
 	margin: 40px auto 40px 20%;
 }
-#contact {
+#contact, #dolor {
 	background-color: lightgray;
 	margin: 40px 20% auto auto;
 }
