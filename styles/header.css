@@ -1,7 +1,5 @@
-/* Header */
-
 .header {
-	background-color: black;
+	background-color: #daff35;
 	padding: 30px;
 	position: relative;
 	color: gray;
@@ -10,15 +8,14 @@
 	align-items: center;
 	justify-content: center;
 }
-
-.header__logo {
+.header h1 {
 	color: black;
 	font-style: italic;
 	font-size: 36px;
 	margin-right: 10px;
 }
 
-.header__menu {
+.menu {
 	position: absolute;
 	bottom: -20px;
 	left: 50%;
@@ -30,8 +27,7 @@
 	border-radius: 5px;
 	box-shadow: 3px 3px 0 black;
 }
-
-.header__menu-item {
+.menu a {
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
