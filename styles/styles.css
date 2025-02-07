@@ -8,10 +8,8 @@ body {
 @import url(/styles/header.css);
 
 .menu {
-	position: absolute;
 	bottom: -20px;
 	left: 50%;
-	transform: translateX(-50%);
 	background-color: yellow;
 	padding: 10px 40px;
 	display: flex;
