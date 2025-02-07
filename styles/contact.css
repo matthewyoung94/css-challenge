@@ -1,0 +1,49 @@
+.container {
+	width: 60%;
+	margin: 50px auto;
+}
+.contact-section,
+.map-section {
+	background: #d8d8d8;
+	padding: 30px;
+	border-radius: 5px;
+}
+.contact-section h2,
+.map-section h2 {
+	font-size: 24px;
+}
+.contact-section p,
+.map-section p {
+	font-size: 16px;
+}
+.form-group {
+	margin-bottom: 15px;
+}
+.form-group label {
+	display: block;
+	font-weight: bold;
+}
+.form-group input,
+.form-group textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-size: 14px;
+}
+.btn {
+	background: black;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+}
+.map-section {
+	background: white;
+	margin-top: 20px;
+}
+.black-border {
+	height: 10px;
+	background: black;
+	margin-top: 10px;
+}
