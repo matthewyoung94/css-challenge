@@ -1,4 +1,123 @@
+/* Global styles */
+body {
+    background-color: #ffeb3b;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+/* Header */
+.header {
+    background-color: black;
+    padding: 30px;
+    position: relative;
+    color: gray;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__logo {
+    color: black;
+    font-style: italic;
+    font-size: 36px;
+    margin-right: 10px;
+}
+
+.header__menu {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: yellow;
+    padding: 10px 40px;
+    display: flex;
+    gap: 30px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0 black;
+}
+
+.header__menu-item {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+/* Sections */
+.section {
+    padding: 40px;
+    width: 60%;
+    box-shadow: 8px 8px 0 black;
+    text-align: left;
+    position: relative;
+    margin: 60px auto;
+}
+
+.section--gray {
+    background-color: lightgray;
+}
+
+.section--white {
+    background-color: white;
+}
+
+/* Candidates Table */
+.candidates {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 8px 8px 0 black;
+    margin: 40px auto;
+    width: 70%;
+}
+
+.candidates__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.candidates__table th,
+.candidates__table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+.candidates__button {
+    background-color: black;
+    color: yellow;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Image Container */
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.image-container img {
+    width: 70%;
+    box-shadow: 8px 8px 0 black;
+}
+
+/* Buttons */
+.button {
+    background-color: black;
+    color: yellow;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: bold;
+    box-shadow: 3px 3px 0 black;
+}
+
+
+/* 
         body {
             background-color: #ffeb3b;
             font-family: Arial, sans-serif;
@@ -71,4 +190,4 @@
             margin-top: 15px;
             font-weight: bold;
             box-shadow: 3px 3px 0 black;
-        }
+        } */
